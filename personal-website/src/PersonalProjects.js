@@ -80,6 +80,7 @@ const PersonalProjects = () => {
                     }
                 </div>
             ))}
+            <p>Work in progress</p>
         </div>
     </section>
   )
