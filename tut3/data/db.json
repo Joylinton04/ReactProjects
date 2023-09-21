@@ -1,0 +1,16 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "React project",
+      "text": "My first react projects",
+      "datetime": "Sep 19, 2023 11:45:49 AM"
+    },
+    {
+      "id": 2,
+      "title": "Front-end developer",
+      "text": "Please Hire me",
+      "datetime": "Sep 19, 2023 11:46:33 AM"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+}
+
+#root {
+  height: 100%;
+  flex-grow: 1;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  column-gap: 5rem;
+}
+
+.sidebar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar .Plus {
+  background-color: #000;
+  color: #ffff;
+  width: 45px;
+  height: 45px;
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+
+.sidebar .colorButton button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.colorButton button:first-child {
+  background-color: #5cc428;
+}
+
+.colorButton button:nth-child(2) {
+  background-color: #f9c63d;
+}
+
+.colorButton button:nth-child(3) {
+  background-color: #eeba4b;
+}
+
+.colorButton button:nth-child(4) {
+  background-color: #ff5f5f;
+}
+
+.colorButton button:nth-child(5) {
+  background-color: #0096ff;
+}
+
+.Home, .writenotes {
+  margin-top: 5rem;
+}
+
+.Home .note {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.Home .note .text {
+  width: clamp(100px, 320px, 400px);
+  height: 340px;
+  font-size: 16px;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  background-color: #ccc;
+}
+
+.Home .note .text .txt {
+  position: absolute;
+  top: 50px;
+}
+
+/* .Home .note .text:nth-child(1) {
+  background-color: #5cc428;
+}
+.Home .note .text:nth-child(2) {
+  background-color: #eeba4b;
+}
+.Home .note .text:nth-child(3) {
+  background-color: #0096ff;
+} */
+
+.form div span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.form div span:first-child {
+  background-color: #eeba4b;
+}
+
+.form div span:nth-child(2) {
+  background-color: #0096ff;
+}
+
+.time-fns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  height: 200px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 45px;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  margin-bottom: 10px ;
+  border-bottom: 1px solid #ccc;
+}
+
+.form div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form .submit {
+  padding: 0.2rem;
+  font-size: 16px;
+  width: 50px;
+  border: none;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.writenotes .colorButton {
+  display: flex;
+  gap: 1rem;
+}
+
+.writenotes .colorButton button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+
+.writenotes a {
+  text-transform: capitalize;
+}
