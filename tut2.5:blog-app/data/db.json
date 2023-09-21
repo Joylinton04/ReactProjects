@@ -1,0 +1,40 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "title": "First post",
+      "datetime": "August 18 2023, 5:50 PM",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsa fuga asperiores fugit quos quaerat beatae eveniet qui similique expedita? Aperiam iure doloremque saepe voluptatem aliquid, ea rerum debitis cupiditate!"
+    },
+    {
+      "id": 2,
+      "title": "My 2nd post",
+      "datetime": "August 19 2023, 6:00 PM",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsa fuga asperiores fugit quos quaerat beatae eveniet qui similique expedita? Aperiam iure doloremque saepe voluptatem aliquid, ea rerum debitis cupiditate!"
+    },
+    {
+      "id": 3,
+      "title": "My 3rd post",
+      "datetime": "August 20 2023, 6:10 PM",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsa fuga asperiores fugit quos quaerat beatae eveniet qui similique expedita? Aperiam iure doloremque saepe voluptatem aliquid, ea rerum debitis cupiditate!"
+    },
+    {
+      "id": 5,
+      "title": "What AI can do to your data",
+      "datetime": "Aug 27, 2023 7:03:45 PM",
+      "body": "yeah i meant what i said chale"
+    },
+    {
+      "id": 7,
+      "title": "ssss",
+      "datetime": "Aug 27, 2023 11:21:47 PM",
+      "body": "asaasasas"
+    },
+    {
+      "id": 8,
+      "title": "kkll",
+      "datetime": "Aug 28, 2023 8:29:13 PM",
+      "body": "kk"
+    }
+  ]
+}
